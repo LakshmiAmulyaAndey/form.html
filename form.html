@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        background-color: rgb(201, 206, 221);
+        margin-left: 400px;
+        margin-right: 400px;
+        padding: 30px;
+    }
+</style>
+<body>
+    <center>
+    <form>
+          <h2>Registration Form</h2>
+          <table border="1">
+            <tr>
+                <td>Student NO:</td>
+                <td><input type="text"name="sno"></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text"name="name"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gen">male &nbsp;
+                    <input type="radio"name="gen">female
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password"name="pwd"></td>
+            </tr>
+            <tr>
+                <td>Branch:</td>
+                <td><select name="branch">
+                    <option>--Select--</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>MECH</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td><input type="checkbox" name="hb">playing cricket &nbsp;
+                <input type="checkbox" name="hb">Reading books</td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows=4 cols=15></textarea></td>
+            </tr>
+            <td><input type="submit" name="submit"></td>
+            <td><input type="reset"name="reset"</td>
+          </table>
+    </form>
+    </center>
+</body>
+</html>
